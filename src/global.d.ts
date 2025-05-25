@@ -14,7 +14,7 @@ declare global {
         type: type.BlockType;
         option?: type.BlockOption;
         branchCount?: number;
-        param?: T;
+        param?: T | MyParam[];
         function(args?: {
             [K in keyof T]: K extends "mutation" ? undefined : (
                 T[K] extends MyParam ? any : never
@@ -31,7 +31,7 @@ declare global {
         // 将undefined输入给扩展加载器会导致加载错误，
         // 因此需要在加载时忽略undefined。
         mutation?: undefined
-    } | MyParam[]
+    }
 
     interface BlockFuncUtil {
         currentBlock: {
