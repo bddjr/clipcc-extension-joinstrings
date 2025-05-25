@@ -1,0 +1,16 @@
+{
+    "name": "Join Strings",
+    "description": "String, join3 ~ join10.",
+    "joinstrings": {
+        "": "Join Strings",
+        "string": "String [0]",
+        "join3": "join3 [0][1][2]",
+        "join4": "join4 [0][1][2][3]",
+        "join5": "join5 [0][1][2][3][4]",
+        "join6": "join6 [0][1][2][3][4][5]",
+        "join7": "join7 [0][1][2][3][4][5][6]",
+        "join8": "join8 [0][1][2][3][4][5][6][7]",
+        "join9": "join9 [0][1][2][3][4][5][6][7][8]",
+        "join10": "join10 [0][1][2][3][4][5][6][7][8][9]"
+    }
+}
